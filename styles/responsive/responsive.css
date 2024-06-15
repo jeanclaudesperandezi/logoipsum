@@ -1,0 +1,15 @@
+@media(max-width: 768px) {
+    .nav__logo-img{
+        width: 75px;
+
+    }
+
+    .nav__auth{
+        display: none;
+
+    }
+
+    .nav__mobile-menu{
+        display: block;
+    }
+}
