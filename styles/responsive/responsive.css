@@ -1,4 +1,4 @@
-@media(max-width: 768px) {
+@media(max-with: 800px) {
     .nav__logo-img{
         width: 75px;
 
@@ -8,8 +8,25 @@
         display: none;
 
     }
-
+    
     .nav__mobile-menu{
+        display: block;
+    }
+
+}
+
+/*responsive de la section main*/
+
+@media(max-width: 800px){
+    .main__hero-titre span{
+        display: none;
+    }
+
+    .main__hero-des{
+        display: none;
+    }
+
+    .main__hero-desp-mobile{
         display: block;
     }
 }
