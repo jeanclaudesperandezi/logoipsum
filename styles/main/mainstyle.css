@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px 10px;
-
+    gap: 30px;
 
 }
 
@@ -27,11 +27,14 @@
 .main__hero-titre{
     font-size: var(--fontsizetitre);
     font-weight: var( --fontweightitre);
+    text-align: center;
 }
 
-.main__hero-des{
+.main__hero-des, 
+.main__hero-desp-mobile{
     font-size: var(--fontsizepgs);
     font-weight: var(--fontweightpgs);
+    text-align: center;
 }
 
 .main__hero-desp-mobile{
