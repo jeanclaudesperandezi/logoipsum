@@ -1,11 +1,14 @@
-@media(max-with: 768px){
+/*responsive section header*/
+
+@media (max-width: 768px)  {
     
     .nav__logo-img{
-        width: 75px;
+        width: 50%;
 
     }
 
     .nav__auth{
+
         display: none;
 
     }
@@ -36,7 +39,7 @@
     }
 }
 
-
+/* responsive section footer*/
 
 @media(max-width: 1024px) {
     .footer{
@@ -53,8 +56,10 @@
 
 @media(max-width: 768px) {
     .footer__logo-img{
-        width: 75px;
+        width: 100%;
+       
     }
+
     .footer__legal{
         flex-direction: column-reverse;
         align-items: center;
