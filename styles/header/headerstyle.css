@@ -28,6 +28,13 @@
     gap: 24px;
 }
 
+.nav__mobile-menu{
+    display: none;
+    
+}
+
+
+
 .nav__auth-btn{
     padding: 10px 20px;
     font-size: var(--fontsize-btn);
@@ -39,7 +46,6 @@
 }
 
 .nav__auth-btn-signin{
-    text-decoration: none;
     color: var(--colornoir);
 }
 
@@ -57,9 +63,6 @@
    
 }
 
-.nav__mobile-menu{
-    display: none;
-    
-}
+
 
 

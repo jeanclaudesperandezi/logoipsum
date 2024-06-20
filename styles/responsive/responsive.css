@@ -1,10 +1,14 @@
-@media(max-with: 800px) {
+/*responsive section header*/
+
+@media (max-width: 768px)  {
+    
     .nav__logo-img{
-        width: 75px;
+        width: 50%;
 
     }
 
     .nav__auth{
+
         display: none;
 
     }
@@ -17,7 +21,7 @@
 
 /*responsive de la section main*/
 
-@media(max-width: 800px){
+@media(max-width: 768px){
     .main__hero-titre span{
         display: none;
     }
@@ -29,4 +33,38 @@
     .main__hero-desp-mobile{
         display: block;
     }
+
+    .main__features {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* responsive section footer*/
+
+@media(max-width: 1024px) {
+    .footer{
+        height: 300px;
+    }
+
+    .footer__container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 10px;
+
+    }
+}
+
+@media(max-width: 768px) {
+    .footer__logo-img{
+        width: 100%;
+       
+    }
+
+    .footer__legal{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    
 }

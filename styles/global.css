@@ -1,8 +1,9 @@
-@import url(/styles/main/mainstyle.css);
-@import url(/styles/header/headerstyle.css);
-@import url(/styles/footer/footerstyle.css);
-@import url(/styles/responsive/responsive.css);
+@import url(main/mainstyle.css);
+@import url(header/headerstyle.css);
+@import url(footer/footerstyle.css);
+@import url(responsive/responsive.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 :root{
 
